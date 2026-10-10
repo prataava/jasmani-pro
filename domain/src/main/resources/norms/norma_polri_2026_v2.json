@@ -1,0 +1,2906 @@
+{
+ "schemaVersion": 1,
+ "source": {
+  "fileName": "Tabel_Nilai_Jasmani_Polri_2026-v2.xlsx",
+  "sha256": "96730a4a30b7a1afa2e510bbde87ddc74d53df75c8dcfd71be7a60e710d6af38",
+  "importedBy": "tools/convert_norma.py"
+ },
+ "tables": [
+  {
+   "id": "pria_2026_v2",
+   "gender": "PRIA",
+   "sheet": "Norma Pria",
+   "metadata": {
+    "sourceName": "Tabel_Nilai_Jasmani_Polri_2026-v2.xlsx (file impor pengguna)",
+    "documentName": null,
+    "decisionNumber": null,
+    "documentDate": null,
+    "validPeriod": null,
+    "category": "Pria",
+    "applicability": "UNCONFIRMED",
+    "verificationNote": "3 titik terverifikasi (nilai 100, 41, 0) dengan rujukan Kep/1352/VI/2020; 98 baris estimasi linier. Status di workbook tidak membuktikan norma berlaku untuk seluruh seleksi Akpol 2026/2027."
+   },
+   "components": [
+    {
+     "id": "LARI_12M",
+     "header": "Lari 12M (meter)",
+     "unit": "meter",
+     "direction": "HIGHER_IS_BETTER",
+     "group": "A",
+     "unitNote": null
+    },
+    {
+     "id": "PULL_UP",
+     "header": "Pull Up (repetisi)",
+     "unit": "repetisi",
+     "direction": "HIGHER_IS_BETTER",
+     "group": "B",
+     "unitNote": null
+    },
+    {
+     "id": "SIT_UP",
+     "header": "Sit Up (repetisi)",
+     "unit": "repetisi",
+     "direction": "HIGHER_IS_BETTER",
+     "group": "B",
+     "unitNote": null
+    },
+    {
+     "id": "PUSH_UP",
+     "header": "Push Up (repetisi)",
+     "unit": "repetisi",
+     "direction": "HIGHER_IS_BETTER",
+     "group": "B",
+     "unitNote": null
+    },
+    {
+     "id": "SHUTTLE_RUN",
+     "header": "Shuttle Run (detik)",
+     "unit": "detik",
+     "direction": "LOWER_IS_BETTER",
+     "group": "B",
+     "unitNote": null
+    },
+    {
+     "id": "RENANG",
+     "header": "Renang (detik)",
+     "unit": "detik",
+     "direction": "LOWER_IS_BETTER",
+     "group": "C",
+     "unitNote": null
+    }
+   ],
+   "rows": [
+    {
+     "score": 100,
+     "status": "VERIFIED",
+     "reference": "Kep/1352/VI/2020",
+     "values": {
+      "LARI_12M": 3444.0,
+      "PULL_UP": 17.0,
+      "SIT_UP": 40.0,
+      "PUSH_UP": 42.0,
+      "SHUTTLE_RUN": 16.2,
+      "RENANG": 14.0
+     }
+    },
+    {
+     "score": 99,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3423.0,
+      "PULL_UP": 17.0,
+      "SIT_UP": 40.0,
+      "PUSH_UP": 42.0,
+      "SHUTTLE_RUN": 16.3,
+      "RENANG": 14.7
+     }
+    },
+    {
+     "score": 98,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3402.0,
+      "PULL_UP": 17.0,
+      "SIT_UP": 40.0,
+      "PUSH_UP": 42.0,
+      "SHUTTLE_RUN": 16.3,
+      "RENANG": 15.4
+     }
+    },
+    {
+     "score": 97,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3380.0,
+      "PULL_UP": 17.0,
+      "SIT_UP": 39.0,
+      "PUSH_UP": 41.0,
+      "SHUTTLE_RUN": 16.4,
+      "RENANG": 16.1
+     }
+    },
+    {
+     "score": 96,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3359.0,
+      "PULL_UP": 17.0,
+      "SIT_UP": 39.0,
+      "PUSH_UP": 41.0,
+      "SHUTTLE_RUN": 16.4,
+      "RENANG": 16.8
+     }
+    },
+    {
+     "score": 95,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3338.0,
+      "PULL_UP": 17.0,
+      "SIT_UP": 38.0,
+      "PUSH_UP": 41.0,
+      "SHUTTLE_RUN": 16.5,
+      "RENANG": 17.5
+     }
+    },
+    {
+     "score": 94,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3317.0,
+      "PULL_UP": 16.0,
+      "SIT_UP": 38.0,
+      "PUSH_UP": 40.0,
+      "SHUTTLE_RUN": 16.5,
+      "RENANG": 18.2
+     }
+    },
+    {
+     "score": 93,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3296.0,
+      "PULL_UP": 16.0,
+      "SIT_UP": 38.0,
+      "PUSH_UP": 40.0,
+      "SHUTTLE_RUN": 16.6,
+      "RENANG": 18.9
+     }
+    },
+    {
+     "score": 92,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3275.0,
+      "PULL_UP": 16.0,
+      "SIT_UP": 37.0,
+      "PUSH_UP": 40.0,
+      "SHUTTLE_RUN": 16.6,
+      "RENANG": 19.6
+     }
+    },
+    {
+     "score": 91,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3253.0,
+      "PULL_UP": 16.0,
+      "SIT_UP": 37.0,
+      "PUSH_UP": 39.0,
+      "SHUTTLE_RUN": 16.7,
+      "RENANG": 20.3
+     }
+    },
+    {
+     "score": 90,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3232.0,
+      "PULL_UP": 16.0,
+      "SIT_UP": 36.0,
+      "PUSH_UP": 39.0,
+      "SHUTTLE_RUN": 16.8,
+      "RENANG": 21.0
+     }
+    },
+    {
+     "score": 89,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3211.0,
+      "PULL_UP": 16.0,
+      "SIT_UP": 36.0,
+      "PUSH_UP": 38.0,
+      "SHUTTLE_RUN": 16.8,
+      "RENANG": 21.7
+     }
+    },
+    {
+     "score": 88,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3190.0,
+      "PULL_UP": 15.0,
+      "SIT_UP": 36.0,
+      "PUSH_UP": 38.0,
+      "SHUTTLE_RUN": 16.9,
+      "RENANG": 22.4
+     }
+    },
+    {
+     "score": 87,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3169.0,
+      "PULL_UP": 15.0,
+      "SIT_UP": 35.0,
+      "PUSH_UP": 38.0,
+      "SHUTTLE_RUN": 16.9,
+      "RENANG": 23.1
+     }
+    },
+    {
+     "score": 86,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3148.0,
+      "PULL_UP": 15.0,
+      "SIT_UP": 35.0,
+      "PUSH_UP": 37.0,
+      "SHUTTLE_RUN": 17.0,
+      "RENANG": 23.8
+     }
+    },
+    {
+     "score": 85,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3126.0,
+      "PULL_UP": 15.0,
+      "SIT_UP": 34.0,
+      "PUSH_UP": 37.0,
+      "SHUTTLE_RUN": 17.0,
+      "RENANG": 24.5
+     }
+    },
+    {
+     "score": 84,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3105.0,
+      "PULL_UP": 15.0,
+      "SIT_UP": 34.0,
+      "PUSH_UP": 37.0,
+      "SHUTTLE_RUN": 17.1,
+      "RENANG": 25.2
+     }
+    },
+    {
+     "score": 83,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3084.0,
+      "PULL_UP": 15.0,
+      "SIT_UP": 34.0,
+      "PUSH_UP": 36.0,
+      "SHUTTLE_RUN": 17.2,
+      "RENANG": 25.9
+     }
+    },
+    {
+     "score": 82,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3063.0,
+      "PULL_UP": 14.0,
+      "SIT_UP": 33.0,
+      "PUSH_UP": 36.0,
+      "SHUTTLE_RUN": 17.2,
+      "RENANG": 26.6
+     }
+    },
+    {
+     "score": 81,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3042.0,
+      "PULL_UP": 14.0,
+      "SIT_UP": 33.0,
+      "PUSH_UP": 35.0,
+      "SHUTTLE_RUN": 17.3,
+      "RENANG": 27.3
+     }
+    },
+    {
+     "score": 80,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3021.0,
+      "PULL_UP": 14.0,
+      "SIT_UP": 32.0,
+      "PUSH_UP": 35.0,
+      "SHUTTLE_RUN": 17.3,
+      "RENANG": 28.0
+     }
+    },
+    {
+     "score": 79,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2999.0,
+      "PULL_UP": 14.0,
+      "SIT_UP": 32.0,
+      "PUSH_UP": 35.0,
+      "SHUTTLE_RUN": 17.4,
+      "RENANG": 28.7
+     }
+    },
+    {
+     "score": 78,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2978.0,
+      "PULL_UP": 14.0,
+      "SIT_UP": 32.0,
+      "PUSH_UP": 34.0,
+      "SHUTTLE_RUN": 17.4,
+      "RENANG": 29.4
+     }
+    },
+    {
+     "score": 77,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2957.0,
+      "PULL_UP": 14.0,
+      "SIT_UP": 31.0,
+      "PUSH_UP": 34.0,
+      "SHUTTLE_RUN": 17.5,
+      "RENANG": 30.1
+     }
+    },
+    {
+     "score": 76,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2936.0,
+      "PULL_UP": 13.0,
+      "SIT_UP": 31.0,
+      "PUSH_UP": 34.0,
+      "SHUTTLE_RUN": 17.5,
+      "RENANG": 30.8
+     }
+    },
+    {
+     "score": 75,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2915.0,
+      "PULL_UP": 13.0,
+      "SIT_UP": 30.0,
+      "PUSH_UP": 33.0,
+      "SHUTTLE_RUN": 17.6,
+      "RENANG": 31.5
+     }
+    },
+    {
+     "score": 74,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2894.0,
+      "PULL_UP": 13.0,
+      "SIT_UP": 30.0,
+      "PUSH_UP": 33.0,
+      "SHUTTLE_RUN": 17.7,
+      "RENANG": 32.2
+     }
+    },
+    {
+     "score": 73,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2872.0,
+      "PULL_UP": 13.0,
+      "SIT_UP": 30.0,
+      "PUSH_UP": 32.0,
+      "SHUTTLE_RUN": 17.7,
+      "RENANG": 32.9
+     }
+    },
+    {
+     "score": 72,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2851.0,
+      "PULL_UP": 13.0,
+      "SIT_UP": 29.0,
+      "PUSH_UP": 32.0,
+      "SHUTTLE_RUN": 17.8,
+      "RENANG": 33.6
+     }
+    },
+    {
+     "score": 71,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2830.0,
+      "PULL_UP": 13.0,
+      "SIT_UP": 29.0,
+      "PUSH_UP": 32.0,
+      "SHUTTLE_RUN": 17.8,
+      "RENANG": 34.3
+     }
+    },
+    {
+     "score": 70,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2809.0,
+      "PULL_UP": 12.0,
+      "SIT_UP": 28.0,
+      "PUSH_UP": 31.0,
+      "SHUTTLE_RUN": 17.9,
+      "RENANG": 35.0
+     }
+    },
+    {
+     "score": 69,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2788.0,
+      "PULL_UP": 12.0,
+      "SIT_UP": 28.0,
+      "PUSH_UP": 31.0,
+      "SHUTTLE_RUN": 17.9,
+      "RENANG": 35.7
+     }
+    },
+    {
+     "score": 68,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2767.0,
+      "PULL_UP": 12.0,
+      "SIT_UP": 28.0,
+      "PUSH_UP": 31.0,
+      "SHUTTLE_RUN": 18.0,
+      "RENANG": 36.4
+     }
+    },
+    {
+     "score": 67,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2745.0,
+      "PULL_UP": 12.0,
+      "SIT_UP": 27.0,
+      "PUSH_UP": 30.0,
+      "SHUTTLE_RUN": 18.0,
+      "RENANG": 37.1
+     }
+    },
+    {
+     "score": 66,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2724.0,
+      "PULL_UP": 12.0,
+      "SIT_UP": 27.0,
+      "PUSH_UP": 30.0,
+      "SHUTTLE_RUN": 18.1,
+      "RENANG": 37.8
+     }
+    },
+    {
+     "score": 65,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2703.0,
+      "PULL_UP": 12.0,
+      "SIT_UP": 26.0,
+      "PUSH_UP": 29.0,
+      "SHUTTLE_RUN": 18.2,
+      "RENANG": 38.5
+     }
+    },
+    {
+     "score": 64,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2682.0,
+      "PULL_UP": 11.0,
+      "SIT_UP": 26.0,
+      "PUSH_UP": 29.0,
+      "SHUTTLE_RUN": 18.2,
+      "RENANG": 39.2
+     }
+    },
+    {
+     "score": 63,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2661.0,
+      "PULL_UP": 11.0,
+      "SIT_UP": 26.0,
+      "PUSH_UP": 29.0,
+      "SHUTTLE_RUN": 18.3,
+      "RENANG": 39.9
+     }
+    },
+    {
+     "score": 62,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2640.0,
+      "PULL_UP": 11.0,
+      "SIT_UP": 25.0,
+      "PUSH_UP": 28.0,
+      "SHUTTLE_RUN": 18.3,
+      "RENANG": 40.6
+     }
+    },
+    {
+     "score": 61,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2618.0,
+      "PULL_UP": 11.0,
+      "SIT_UP": 25.0,
+      "PUSH_UP": 28.0,
+      "SHUTTLE_RUN": 18.4,
+      "RENANG": 41.3
+     }
+    },
+    {
+     "score": 60,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2597.0,
+      "PULL_UP": 11.0,
+      "SIT_UP": 24.0,
+      "PUSH_UP": 28.0,
+      "SHUTTLE_RUN": 18.4,
+      "RENANG": 42.0
+     }
+    },
+    {
+     "score": 59,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2576.0,
+      "PULL_UP": 11.0,
+      "SIT_UP": 24.0,
+      "PUSH_UP": 27.0,
+      "SHUTTLE_RUN": 18.5,
+      "RENANG": 42.7
+     }
+    },
+    {
+     "score": 58,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2555.0,
+      "PULL_UP": 10.0,
+      "SIT_UP": 24.0,
+      "PUSH_UP": 27.0,
+      "SHUTTLE_RUN": 18.5,
+      "RENANG": 43.4
+     }
+    },
+    {
+     "score": 57,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2534.0,
+      "PULL_UP": 10.0,
+      "SIT_UP": 23.0,
+      "PUSH_UP": 26.0,
+      "SHUTTLE_RUN": 18.6,
+      "RENANG": 44.1
+     }
+    },
+    {
+     "score": 56,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2513.0,
+      "PULL_UP": 10.0,
+      "SIT_UP": 23.0,
+      "PUSH_UP": 26.0,
+      "SHUTTLE_RUN": 18.7,
+      "RENANG": 44.8
+     }
+    },
+    {
+     "score": 55,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2491.0,
+      "PULL_UP": 10.0,
+      "SIT_UP": 22.0,
+      "PUSH_UP": 26.0,
+      "SHUTTLE_RUN": 18.7,
+      "RENANG": 45.5
+     }
+    },
+    {
+     "score": 54,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2470.0,
+      "PULL_UP": 10.0,
+      "SIT_UP": 22.0,
+      "PUSH_UP": 25.0,
+      "SHUTTLE_RUN": 18.8,
+      "RENANG": 46.2
+     }
+    },
+    {
+     "score": 53,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2449.0,
+      "PULL_UP": 10.0,
+      "SIT_UP": 22.0,
+      "PUSH_UP": 25.0,
+      "SHUTTLE_RUN": 18.8,
+      "RENANG": 46.9
+     }
+    },
+    {
+     "score": 52,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2428.0,
+      "PULL_UP": 9.0,
+      "SIT_UP": 21.0,
+      "PUSH_UP": 25.0,
+      "SHUTTLE_RUN": 18.9,
+      "RENANG": 47.6
+     }
+    },
+    {
+     "score": 51,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2407.0,
+      "PULL_UP": 9.0,
+      "SIT_UP": 21.0,
+      "PUSH_UP": 24.0,
+      "SHUTTLE_RUN": 18.9,
+      "RENANG": 48.3
+     }
+    },
+    {
+     "score": 50,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2386.0,
+      "PULL_UP": 9.0,
+      "SIT_UP": 20.0,
+      "PUSH_UP": 24.0,
+      "SHUTTLE_RUN": 19.0,
+      "RENANG": 49.0
+     }
+    },
+    {
+     "score": 49,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2364.0,
+      "PULL_UP": 9.0,
+      "SIT_UP": 20.0,
+      "PUSH_UP": 23.0,
+      "SHUTTLE_RUN": 19.1,
+      "RENANG": 49.7
+     }
+    },
+    {
+     "score": 48,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2343.0,
+      "PULL_UP": 9.0,
+      "SIT_UP": 20.0,
+      "PUSH_UP": 23.0,
+      "SHUTTLE_RUN": 19.1,
+      "RENANG": 50.4
+     }
+    },
+    {
+     "score": 47,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2322.0,
+      "PULL_UP": 9.0,
+      "SIT_UP": 19.0,
+      "PUSH_UP": 23.0,
+      "SHUTTLE_RUN": 19.2,
+      "RENANG": 51.1
+     }
+    },
+    {
+     "score": 46,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2301.0,
+      "PULL_UP": 8.0,
+      "SIT_UP": 19.0,
+      "PUSH_UP": 22.0,
+      "SHUTTLE_RUN": 19.2,
+      "RENANG": 51.8
+     }
+    },
+    {
+     "score": 45,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2280.0,
+      "PULL_UP": 8.0,
+      "SIT_UP": 18.0,
+      "PUSH_UP": 22.0,
+      "SHUTTLE_RUN": 19.3,
+      "RENANG": 52.5
+     }
+    },
+    {
+     "score": 44,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2259.0,
+      "PULL_UP": 8.0,
+      "SIT_UP": 18.0,
+      "PUSH_UP": 22.0,
+      "SHUTTLE_RUN": 19.3,
+      "RENANG": 53.2
+     }
+    },
+    {
+     "score": 43,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2237.0,
+      "PULL_UP": 8.0,
+      "SIT_UP": 18.0,
+      "PUSH_UP": 21.0,
+      "SHUTTLE_RUN": 19.4,
+      "RENANG": 53.9
+     }
+    },
+    {
+     "score": 42,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2216.0,
+      "PULL_UP": 8.0,
+      "SIT_UP": 17.0,
+      "PUSH_UP": 21.0,
+      "SHUTTLE_RUN": 19.4,
+      "RENANG": 54.6
+     }
+    },
+    {
+     "score": 41,
+     "status": "VERIFIED",
+     "reference": "Kep/1352/VI/2020",
+     "values": {
+      "LARI_12M": 2195.0,
+      "PULL_UP": 8.0,
+      "SIT_UP": 17.0,
+      "PUSH_UP": 20.0,
+      "SHUTTLE_RUN": 19.5,
+      "RENANG": 55.3
+     }
+    },
+    {
+     "score": 40,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2174.0,
+      "PULL_UP": 7.0,
+      "SIT_UP": 16.0,
+      "PUSH_UP": 20.0,
+      "SHUTTLE_RUN": 19.6,
+      "RENANG": 56.0
+     }
+    },
+    {
+     "score": 39,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2153.0,
+      "PULL_UP": 7.0,
+      "SIT_UP": 16.0,
+      "PUSH_UP": 20.0,
+      "SHUTTLE_RUN": 19.6,
+      "RENANG": 56.7
+     }
+    },
+    {
+     "score": 38,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2131.0,
+      "PULL_UP": 7.0,
+      "SIT_UP": 16.0,
+      "PUSH_UP": 19.0,
+      "SHUTTLE_RUN": 19.7,
+      "RENANG": 57.4
+     }
+    },
+    {
+     "score": 37,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2110.0,
+      "PULL_UP": 7.0,
+      "SIT_UP": 15.0,
+      "PUSH_UP": 19.0,
+      "SHUTTLE_RUN": 19.7,
+      "RENANG": 58.1
+     }
+    },
+    {
+     "score": 36,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2089.0,
+      "PULL_UP": 7.0,
+      "SIT_UP": 15.0,
+      "PUSH_UP": 19.0,
+      "SHUTTLE_RUN": 19.8,
+      "RENANG": 58.8
+     }
+    },
+    {
+     "score": 35,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2068.0,
+      "PULL_UP": 7.0,
+      "SIT_UP": 14.0,
+      "PUSH_UP": 18.0,
+      "SHUTTLE_RUN": 19.8,
+      "RENANG": 59.5
+     }
+    },
+    {
+     "score": 34,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2047.0,
+      "PULL_UP": 6.0,
+      "SIT_UP": 14.0,
+      "PUSH_UP": 18.0,
+      "SHUTTLE_RUN": 19.9,
+      "RENANG": 60.2
+     }
+    },
+    {
+     "score": 33,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2026.0,
+      "PULL_UP": 6.0,
+      "SIT_UP": 14.0,
+      "PUSH_UP": 17.0,
+      "SHUTTLE_RUN": 19.9,
+      "RENANG": 60.9
+     }
+    },
+    {
+     "score": 32,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2004.0,
+      "PULL_UP": 6.0,
+      "SIT_UP": 13.0,
+      "PUSH_UP": 17.0,
+      "SHUTTLE_RUN": 20.0,
+      "RENANG": 61.6
+     }
+    },
+    {
+     "score": 31,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1983.0,
+      "PULL_UP": 6.0,
+      "SIT_UP": 13.0,
+      "PUSH_UP": 17.0,
+      "SHUTTLE_RUN": 20.1,
+      "RENANG": 62.3
+     }
+    },
+    {
+     "score": 30,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1962.0,
+      "PULL_UP": 6.0,
+      "SIT_UP": 12.0,
+      "PUSH_UP": 16.0,
+      "SHUTTLE_RUN": 20.1,
+      "RENANG": 63.0
+     }
+    },
+    {
+     "score": 29,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1941.0,
+      "PULL_UP": 6.0,
+      "SIT_UP": 12.0,
+      "PUSH_UP": 16.0,
+      "SHUTTLE_RUN": 20.2,
+      "RENANG": 63.7
+     }
+    },
+    {
+     "score": 28,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1920.0,
+      "PULL_UP": 5.0,
+      "SIT_UP": 12.0,
+      "PUSH_UP": 16.0,
+      "SHUTTLE_RUN": 20.2,
+      "RENANG": 64.4
+     }
+    },
+    {
+     "score": 27,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1899.0,
+      "PULL_UP": 5.0,
+      "SIT_UP": 11.0,
+      "PUSH_UP": 15.0,
+      "SHUTTLE_RUN": 20.3,
+      "RENANG": 65.1
+     }
+    },
+    {
+     "score": 26,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1877.0,
+      "PULL_UP": 5.0,
+      "SIT_UP": 11.0,
+      "PUSH_UP": 15.0,
+      "SHUTTLE_RUN": 20.3,
+      "RENANG": 65.8
+     }
+    },
+    {
+     "score": 25,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1856.0,
+      "PULL_UP": 5.0,
+      "SIT_UP": 10.0,
+      "PUSH_UP": 15.0,
+      "SHUTTLE_RUN": 20.4,
+      "RENANG": 66.5
+     }
+    },
+    {
+     "score": 24,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1835.0,
+      "PULL_UP": 5.0,
+      "SIT_UP": 10.0,
+      "PUSH_UP": 14.0,
+      "SHUTTLE_RUN": 20.4,
+      "RENANG": 67.2
+     }
+    },
+    {
+     "score": 23,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1814.0,
+      "PULL_UP": 5.0,
+      "SIT_UP": 10.0,
+      "PUSH_UP": 14.0,
+      "SHUTTLE_RUN": 20.5,
+      "RENANG": 67.9
+     }
+    },
+    {
+     "score": 22,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1793.0,
+      "PULL_UP": 4.0,
+      "SIT_UP": 9.0,
+      "PUSH_UP": 13.0,
+      "SHUTTLE_RUN": 20.6,
+      "RENANG": 68.6
+     }
+    },
+    {
+     "score": 21,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1772.0,
+      "PULL_UP": 4.0,
+      "SIT_UP": 9.0,
+      "PUSH_UP": 13.0,
+      "SHUTTLE_RUN": 20.6,
+      "RENANG": 69.3
+     }
+    },
+    {
+     "score": 20,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1750.0,
+      "PULL_UP": 4.0,
+      "SIT_UP": 8.0,
+      "PUSH_UP": 13.0,
+      "SHUTTLE_RUN": 20.7,
+      "RENANG": 70.0
+     }
+    },
+    {
+     "score": 19,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1729.0,
+      "PULL_UP": 4.0,
+      "SIT_UP": 8.0,
+      "PUSH_UP": 12.0,
+      "SHUTTLE_RUN": 20.7,
+      "RENANG": 70.7
+     }
+    },
+    {
+     "score": 18,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1708.0,
+      "PULL_UP": 4.0,
+      "SIT_UP": 8.0,
+      "PUSH_UP": 12.0,
+      "SHUTTLE_RUN": 20.8,
+      "RENANG": 71.4
+     }
+    },
+    {
+     "score": 17,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1687.0,
+      "PULL_UP": 4.0,
+      "SIT_UP": 7.0,
+      "PUSH_UP": 12.0,
+      "SHUTTLE_RUN": 20.8,
+      "RENANG": 72.1
+     }
+    },
+    {
+     "score": 16,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1666.0,
+      "PULL_UP": 3.0,
+      "SIT_UP": 7.0,
+      "PUSH_UP": 11.0,
+      "SHUTTLE_RUN": 20.9,
+      "RENANG": 72.8
+     }
+    },
+    {
+     "score": 15,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1645.0,
+      "PULL_UP": 3.0,
+      "SIT_UP": 6.0,
+      "PUSH_UP": 11.0,
+      "SHUTTLE_RUN": 21.0,
+      "RENANG": 73.5
+     }
+    },
+    {
+     "score": 14,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1623.0,
+      "PULL_UP": 3.0,
+      "SIT_UP": 6.0,
+      "PUSH_UP": 10.0,
+      "SHUTTLE_RUN": 21.0,
+      "RENANG": 74.2
+     }
+    },
+    {
+     "score": 13,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1602.0,
+      "PULL_UP": 3.0,
+      "SIT_UP": 6.0,
+      "PUSH_UP": 10.0,
+      "SHUTTLE_RUN": 21.1,
+      "RENANG": 74.9
+     }
+    },
+    {
+     "score": 12,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1581.0,
+      "PULL_UP": 3.0,
+      "SIT_UP": 5.0,
+      "PUSH_UP": 10.0,
+      "SHUTTLE_RUN": 21.1,
+      "RENANG": 75.6
+     }
+    },
+    {
+     "score": 11,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1560.0,
+      "PULL_UP": 3.0,
+      "SIT_UP": 5.0,
+      "PUSH_UP": 9.0,
+      "SHUTTLE_RUN": 21.2,
+      "RENANG": 76.3
+     }
+    },
+    {
+     "score": 10,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1539.0,
+      "PULL_UP": 2.0,
+      "SIT_UP": 4.0,
+      "PUSH_UP": 9.0,
+      "SHUTTLE_RUN": 21.2,
+      "RENANG": 77.0
+     }
+    },
+    {
+     "score": 9,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1518.0,
+      "PULL_UP": 2.0,
+      "SIT_UP": 4.0,
+      "PUSH_UP": 9.0,
+      "SHUTTLE_RUN": 21.3,
+      "RENANG": 77.7
+     }
+    },
+    {
+     "score": 8,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1496.0,
+      "PULL_UP": 2.0,
+      "SIT_UP": 4.0,
+      "PUSH_UP": 8.0,
+      "SHUTTLE_RUN": 21.3,
+      "RENANG": 78.4
+     }
+    },
+    {
+     "score": 7,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1475.0,
+      "PULL_UP": 2.0,
+      "SIT_UP": 3.0,
+      "PUSH_UP": 8.0,
+      "SHUTTLE_RUN": 21.4,
+      "RENANG": 79.1
+     }
+    },
+    {
+     "score": 6,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1454.0,
+      "PULL_UP": 2.0,
+      "SIT_UP": 3.0,
+      "PUSH_UP": 7.0,
+      "SHUTTLE_RUN": 21.5,
+      "RENANG": 79.8
+     }
+    },
+    {
+     "score": 5,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1433.0,
+      "PULL_UP": 2.0,
+      "SIT_UP": 2.0,
+      "PUSH_UP": 7.0,
+      "SHUTTLE_RUN": 21.5,
+      "RENANG": 80.5
+     }
+    },
+    {
+     "score": 4,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1412.0,
+      "PULL_UP": 1.0,
+      "SIT_UP": 2.0,
+      "PUSH_UP": 7.0,
+      "SHUTTLE_RUN": 21.6,
+      "RENANG": 81.2
+     }
+    },
+    {
+     "score": 3,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1391.0,
+      "PULL_UP": 1.0,
+      "SIT_UP": 2.0,
+      "PUSH_UP": 6.0,
+      "SHUTTLE_RUN": 21.6,
+      "RENANG": 81.9
+     }
+    },
+    {
+     "score": 2,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1369.0,
+      "PULL_UP": 1.0,
+      "SIT_UP": 1.0,
+      "PUSH_UP": 6.0,
+      "SHUTTLE_RUN": 21.7,
+      "RENANG": 82.6
+     }
+    },
+    {
+     "score": 1,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1348.0,
+      "PULL_UP": 1.0,
+      "SIT_UP": 1.0,
+      "PUSH_UP": 6.0,
+      "SHUTTLE_RUN": 21.7,
+      "RENANG": 83.3
+     }
+    },
+    {
+     "score": 0,
+     "status": "VERIFIED",
+     "reference": "Kep/1352/VI/2020",
+     "values": {
+      "LARI_12M": 1327.0,
+      "PULL_UP": 1.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 5.0,
+      "SHUTTLE_RUN": 21.8,
+      "RENANG": 84.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "wanita_2026_v2",
+   "gender": "WANITA",
+   "sheet": "Norma Wanita",
+   "metadata": {
+    "sourceName": "Tabel_Nilai_Jasmani_Polri_2026-v2.xlsx (file impor pengguna)",
+    "documentName": null,
+    "decisionNumber": null,
+    "documentDate": null,
+    "validPeriod": null,
+    "category": "Wanita",
+    "applicability": "UNCONFIRMED",
+    "verificationNote": "1 titik terverifikasi (nilai 100) dengan rujukan Kep/1352/VI/2020; 100 baris estimasi linier. Status di workbook tidak membuktikan norma berlaku untuk seluruh seleksi Akpol 2026/2027."
+   },
+   "components": [
+    {
+     "id": "LARI_12M",
+     "header": "Lari 12M (meter)",
+     "unit": "meter",
+     "direction": "HIGHER_IS_BETTER",
+     "group": "A",
+     "unitNote": null
+    },
+    {
+     "id": "CHINNING",
+     "header": "Chinning (repetisi)",
+     "unit": "repetisi",
+     "direction": "HIGHER_IS_BETTER",
+     "group": "B",
+     "unitNote": "Satuan repetisi dikonfirmasi pengguna. Namun 72 repetisi pada nilai 100 tampak tidak lazim; belum diverifikasi terhadap dokumen resmi."
+    },
+    {
+     "id": "SIT_UP",
+     "header": "Sit Up (repetisi)",
+     "unit": "repetisi",
+     "direction": "HIGHER_IS_BETTER",
+     "group": "B",
+     "unitNote": null
+    },
+    {
+     "id": "PUSH_UP",
+     "header": "Push Up (repetisi)",
+     "unit": "repetisi",
+     "direction": "HIGHER_IS_BETTER",
+     "group": "B",
+     "unitNote": null
+    },
+    {
+     "id": "SHUTTLE_RUN",
+     "header": "Shuttle Run (detik)",
+     "unit": "detik",
+     "direction": "LOWER_IS_BETTER",
+     "group": "B",
+     "unitNote": null
+    },
+    {
+     "id": "RENANG",
+     "header": "Renang (detik)",
+     "unit": "detik",
+     "direction": "LOWER_IS_BETTER",
+     "group": "C",
+     "unitNote": null
+    }
+   ],
+   "rows": [
+    {
+     "score": 100,
+     "status": "VERIFIED",
+     "reference": "Kep/1352/VI/2020",
+     "values": {
+      "LARI_12M": 3095.0,
+      "CHINNING": 72.0,
+      "SIT_UP": 50.0,
+      "PUSH_UP": 37.0,
+      "SHUTTLE_RUN": 17.6,
+      "RENANG": 14.0
+     }
+    },
+    {
+     "score": 99,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3074.0,
+      "CHINNING": 71.0,
+      "SIT_UP": 50.0,
+      "PUSH_UP": 37.0,
+      "SHUTTLE_RUN": 17.7,
+      "RENANG": 14.8
+     }
+    },
+    {
+     "score": 98,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3053.0,
+      "CHINNING": 70.0,
+      "SIT_UP": 49.0,
+      "PUSH_UP": 36.0,
+      "SHUTTLE_RUN": 17.7,
+      "RENANG": 15.5
+     }
+    },
+    {
+     "score": 97,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3031.0,
+      "CHINNING": 69.0,
+      "SIT_UP": 48.0,
+      "PUSH_UP": 36.0,
+      "SHUTTLE_RUN": 17.8,
+      "RENANG": 16.3
+     }
+    },
+    {
+     "score": 96,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 3010.0,
+      "CHINNING": 68.0,
+      "SIT_UP": 47.0,
+      "PUSH_UP": 35.0,
+      "SHUTTLE_RUN": 17.8,
+      "RENANG": 17.1
+     }
+    },
+    {
+     "score": 95,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2989.0,
+      "CHINNING": 66.0,
+      "SIT_UP": 46.0,
+      "PUSH_UP": 34.0,
+      "SHUTTLE_RUN": 17.9,
+      "RENANG": 17.9
+     }
+    },
+    {
+     "score": 94,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2968.0,
+      "CHINNING": 65.0,
+      "SIT_UP": 46.0,
+      "PUSH_UP": 34.0,
+      "SHUTTLE_RUN": 17.9,
+      "RENANG": 18.6
+     }
+    },
+    {
+     "score": 93,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2947.0,
+      "CHINNING": 64.0,
+      "SIT_UP": 45.0,
+      "PUSH_UP": 33.0,
+      "SHUTTLE_RUN": 18.0,
+      "RENANG": 19.4
+     }
+    },
+    {
+     "score": 92,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2926.0,
+      "CHINNING": 63.0,
+      "SIT_UP": 44.0,
+      "PUSH_UP": 33.0,
+      "SHUTTLE_RUN": 18.0,
+      "RENANG": 20.2
+     }
+    },
+    {
+     "score": 91,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2904.0,
+      "CHINNING": 62.0,
+      "SIT_UP": 43.0,
+      "PUSH_UP": 32.0,
+      "SHUTTLE_RUN": 18.1,
+      "RENANG": 20.9
+     }
+    },
+    {
+     "score": 90,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2883.0,
+      "CHINNING": 60.0,
+      "SIT_UP": 42.0,
+      "PUSH_UP": 31.0,
+      "SHUTTLE_RUN": 18.2,
+      "RENANG": 21.7
+     }
+    },
+    {
+     "score": 89,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2862.0,
+      "CHINNING": 59.0,
+      "SIT_UP": 42.0,
+      "PUSH_UP": 31.0,
+      "SHUTTLE_RUN": 18.2,
+      "RENANG": 22.5
+     }
+    },
+    {
+     "score": 88,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2841.0,
+      "CHINNING": 58.0,
+      "SIT_UP": 41.0,
+      "PUSH_UP": 30.0,
+      "SHUTTLE_RUN": 18.3,
+      "RENANG": 23.2
+     }
+    },
+    {
+     "score": 87,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2820.0,
+      "CHINNING": 57.0,
+      "SIT_UP": 40.0,
+      "PUSH_UP": 30.0,
+      "SHUTTLE_RUN": 18.3,
+      "RENANG": 24.0
+     }
+    },
+    {
+     "score": 86,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2799.0,
+      "CHINNING": 56.0,
+      "SIT_UP": 39.0,
+      "PUSH_UP": 29.0,
+      "SHUTTLE_RUN": 18.4,
+      "RENANG": 24.8
+     }
+    },
+    {
+     "score": 85,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2777.0,
+      "CHINNING": 54.0,
+      "SIT_UP": 38.0,
+      "PUSH_UP": 28.0,
+      "SHUTTLE_RUN": 18.4,
+      "RENANG": 25.6
+     }
+    },
+    {
+     "score": 84,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2756.0,
+      "CHINNING": 53.0,
+      "SIT_UP": 38.0,
+      "PUSH_UP": 28.0,
+      "SHUTTLE_RUN": 18.5,
+      "RENANG": 26.3
+     }
+    },
+    {
+     "score": 83,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2735.0,
+      "CHINNING": 52.0,
+      "SIT_UP": 37.0,
+      "PUSH_UP": 27.0,
+      "SHUTTLE_RUN": 18.6,
+      "RENANG": 27.1
+     }
+    },
+    {
+     "score": 82,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2714.0,
+      "CHINNING": 51.0,
+      "SIT_UP": 36.0,
+      "PUSH_UP": 27.0,
+      "SHUTTLE_RUN": 18.6,
+      "RENANG": 27.9
+     }
+    },
+    {
+     "score": 81,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2693.0,
+      "CHINNING": 50.0,
+      "SIT_UP": 35.0,
+      "PUSH_UP": 26.0,
+      "SHUTTLE_RUN": 18.7,
+      "RENANG": 28.6
+     }
+    },
+    {
+     "score": 80,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2672.0,
+      "CHINNING": 48.0,
+      "SIT_UP": 34.0,
+      "PUSH_UP": 25.0,
+      "SHUTTLE_RUN": 18.7,
+      "RENANG": 29.4
+     }
+    },
+    {
+     "score": 79,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2650.0,
+      "CHINNING": 47.0,
+      "SIT_UP": 34.0,
+      "PUSH_UP": 25.0,
+      "SHUTTLE_RUN": 18.8,
+      "RENANG": 30.2
+     }
+    },
+    {
+     "score": 78,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2629.0,
+      "CHINNING": 46.0,
+      "SIT_UP": 33.0,
+      "PUSH_UP": 24.0,
+      "SHUTTLE_RUN": 18.8,
+      "RENANG": 30.9
+     }
+    },
+    {
+     "score": 77,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2608.0,
+      "CHINNING": 45.0,
+      "SIT_UP": 32.0,
+      "PUSH_UP": 24.0,
+      "SHUTTLE_RUN": 18.9,
+      "RENANG": 31.7
+     }
+    },
+    {
+     "score": 76,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2587.0,
+      "CHINNING": 44.0,
+      "SIT_UP": 31.0,
+      "PUSH_UP": 23.0,
+      "SHUTTLE_RUN": 18.9,
+      "RENANG": 32.5
+     }
+    },
+    {
+     "score": 75,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2566.0,
+      "CHINNING": 42.0,
+      "SIT_UP": 30.0,
+      "PUSH_UP": 22.0,
+      "SHUTTLE_RUN": 19.0,
+      "RENANG": 33.2
+     }
+    },
+    {
+     "score": 74,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2545.0,
+      "CHINNING": 41.0,
+      "SIT_UP": 30.0,
+      "PUSH_UP": 22.0,
+      "SHUTTLE_RUN": 19.1,
+      "RENANG": 34.0
+     }
+    },
+    {
+     "score": 73,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2523.0,
+      "CHINNING": 40.0,
+      "SIT_UP": 29.0,
+      "PUSH_UP": 21.0,
+      "SHUTTLE_RUN": 19.1,
+      "RENANG": 34.8
+     }
+    },
+    {
+     "score": 72,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2502.0,
+      "CHINNING": 39.0,
+      "SIT_UP": 28.0,
+      "PUSH_UP": 21.0,
+      "SHUTTLE_RUN": 19.2,
+      "RENANG": 35.6
+     }
+    },
+    {
+     "score": 71,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2481.0,
+      "CHINNING": 38.0,
+      "SIT_UP": 27.0,
+      "PUSH_UP": 20.0,
+      "SHUTTLE_RUN": 19.2,
+      "RENANG": 36.3
+     }
+    },
+    {
+     "score": 70,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2460.0,
+      "CHINNING": 36.0,
+      "SIT_UP": 26.0,
+      "PUSH_UP": 19.0,
+      "SHUTTLE_RUN": 19.3,
+      "RENANG": 37.1
+     }
+    },
+    {
+     "score": 69,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2439.0,
+      "CHINNING": 35.0,
+      "SIT_UP": 26.0,
+      "PUSH_UP": 19.0,
+      "SHUTTLE_RUN": 19.3,
+      "RENANG": 37.9
+     }
+    },
+    {
+     "score": 68,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2418.0,
+      "CHINNING": 34.0,
+      "SIT_UP": 25.0,
+      "PUSH_UP": 18.0,
+      "SHUTTLE_RUN": 19.4,
+      "RENANG": 38.6
+     }
+    },
+    {
+     "score": 67,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2396.0,
+      "CHINNING": 33.0,
+      "SIT_UP": 24.0,
+      "PUSH_UP": 18.0,
+      "SHUTTLE_RUN": 19.4,
+      "RENANG": 39.4
+     }
+    },
+    {
+     "score": 66,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2375.0,
+      "CHINNING": 32.0,
+      "SIT_UP": 23.0,
+      "PUSH_UP": 17.0,
+      "SHUTTLE_RUN": 19.5,
+      "RENANG": 40.2
+     }
+    },
+    {
+     "score": 65,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2354.0,
+      "CHINNING": 30.0,
+      "SIT_UP": 22.0,
+      "PUSH_UP": 16.0,
+      "SHUTTLE_RUN": 19.6,
+      "RENANG": 41.0
+     }
+    },
+    {
+     "score": 64,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2333.0,
+      "CHINNING": 29.0,
+      "SIT_UP": 22.0,
+      "PUSH_UP": 16.0,
+      "SHUTTLE_RUN": 19.6,
+      "RENANG": 41.7
+     }
+    },
+    {
+     "score": 63,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2312.0,
+      "CHINNING": 28.0,
+      "SIT_UP": 21.0,
+      "PUSH_UP": 15.0,
+      "SHUTTLE_RUN": 19.7,
+      "RENANG": 42.5
+     }
+    },
+    {
+     "score": 62,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2291.0,
+      "CHINNING": 27.0,
+      "SIT_UP": 20.0,
+      "PUSH_UP": 15.0,
+      "SHUTTLE_RUN": 19.7,
+      "RENANG": 43.3
+     }
+    },
+    {
+     "score": 61,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2269.0,
+      "CHINNING": 26.0,
+      "SIT_UP": 19.0,
+      "PUSH_UP": 14.0,
+      "SHUTTLE_RUN": 19.8,
+      "RENANG": 44.0
+     }
+    },
+    {
+     "score": 60,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2248.0,
+      "CHINNING": 24.0,
+      "SIT_UP": 18.0,
+      "PUSH_UP": 13.0,
+      "SHUTTLE_RUN": 19.8,
+      "RENANG": 44.8
+     }
+    },
+    {
+     "score": 59,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2227.0,
+      "CHINNING": 23.0,
+      "SIT_UP": 18.0,
+      "PUSH_UP": 13.0,
+      "SHUTTLE_RUN": 19.9,
+      "RENANG": 45.6
+     }
+    },
+    {
+     "score": 58,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2206.0,
+      "CHINNING": 22.0,
+      "SIT_UP": 17.0,
+      "PUSH_UP": 12.0,
+      "SHUTTLE_RUN": 19.9,
+      "RENANG": 46.3
+     }
+    },
+    {
+     "score": 57,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2185.0,
+      "CHINNING": 21.0,
+      "SIT_UP": 16.0,
+      "PUSH_UP": 12.0,
+      "SHUTTLE_RUN": 20.0,
+      "RENANG": 47.1
+     }
+    },
+    {
+     "score": 56,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2164.0,
+      "CHINNING": 20.0,
+      "SIT_UP": 15.0,
+      "PUSH_UP": 11.0,
+      "SHUTTLE_RUN": 20.1,
+      "RENANG": 47.9
+     }
+    },
+    {
+     "score": 55,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2142.0,
+      "CHINNING": 18.0,
+      "SIT_UP": 14.0,
+      "PUSH_UP": 10.0,
+      "SHUTTLE_RUN": 20.1,
+      "RENANG": 48.6
+     }
+    },
+    {
+     "score": 54,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2121.0,
+      "CHINNING": 17.0,
+      "SIT_UP": 14.0,
+      "PUSH_UP": 10.0,
+      "SHUTTLE_RUN": 20.2,
+      "RENANG": 49.4
+     }
+    },
+    {
+     "score": 53,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2100.0,
+      "CHINNING": 16.0,
+      "SIT_UP": 13.0,
+      "PUSH_UP": 9.0,
+      "SHUTTLE_RUN": 20.2,
+      "RENANG": 50.2
+     }
+    },
+    {
+     "score": 52,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2079.0,
+      "CHINNING": 15.0,
+      "SIT_UP": 12.0,
+      "PUSH_UP": 9.0,
+      "SHUTTLE_RUN": 20.3,
+      "RENANG": 51.0
+     }
+    },
+    {
+     "score": 51,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2058.0,
+      "CHINNING": 14.0,
+      "SIT_UP": 11.0,
+      "PUSH_UP": 8.0,
+      "SHUTTLE_RUN": 20.3,
+      "RENANG": 51.7
+     }
+    },
+    {
+     "score": 50,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2037.0,
+      "CHINNING": 12.0,
+      "SIT_UP": 10.0,
+      "PUSH_UP": 7.0,
+      "SHUTTLE_RUN": 20.4,
+      "RENANG": 52.5
+     }
+    },
+    {
+     "score": 49,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 2015.0,
+      "CHINNING": 11.0,
+      "SIT_UP": 10.0,
+      "PUSH_UP": 7.0,
+      "SHUTTLE_RUN": 20.5,
+      "RENANG": 53.3
+     }
+    },
+    {
+     "score": 48,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1994.0,
+      "CHINNING": 10.0,
+      "SIT_UP": 9.0,
+      "PUSH_UP": 6.0,
+      "SHUTTLE_RUN": 20.5,
+      "RENANG": 54.0
+     }
+    },
+    {
+     "score": 47,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1973.0,
+      "CHINNING": 9.0,
+      "SIT_UP": 8.0,
+      "PUSH_UP": 6.0,
+      "SHUTTLE_RUN": 20.6,
+      "RENANG": 54.8
+     }
+    },
+    {
+     "score": 46,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1952.0,
+      "CHINNING": 8.0,
+      "SIT_UP": 7.0,
+      "PUSH_UP": 5.0,
+      "SHUTTLE_RUN": 20.6,
+      "RENANG": 55.6
+     }
+    },
+    {
+     "score": 45,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1931.0,
+      "CHINNING": 6.0,
+      "SIT_UP": 6.0,
+      "PUSH_UP": 4.0,
+      "SHUTTLE_RUN": 20.7,
+      "RENANG": 56.4
+     }
+    },
+    {
+     "score": 44,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1910.0,
+      "CHINNING": 5.0,
+      "SIT_UP": 6.0,
+      "PUSH_UP": 4.0,
+      "SHUTTLE_RUN": 20.7,
+      "RENANG": 57.1
+     }
+    },
+    {
+     "score": 43,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1888.0,
+      "CHINNING": 4.0,
+      "SIT_UP": 5.0,
+      "PUSH_UP": 3.0,
+      "SHUTTLE_RUN": 20.8,
+      "RENANG": 57.9
+     }
+    },
+    {
+     "score": 42,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1867.0,
+      "CHINNING": 3.0,
+      "SIT_UP": 4.0,
+      "PUSH_UP": 3.0,
+      "SHUTTLE_RUN": 20.8,
+      "RENANG": 58.7
+     }
+    },
+    {
+     "score": 41,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1846.0,
+      "CHINNING": 2.0,
+      "SIT_UP": 3.0,
+      "PUSH_UP": 2.0,
+      "SHUTTLE_RUN": 20.9,
+      "RENANG": 59.4
+     }
+    },
+    {
+     "score": 40,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1825.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 2.0,
+      "PUSH_UP": 1.0,
+      "SHUTTLE_RUN": 21.0,
+      "RENANG": 60.2
+     }
+    },
+    {
+     "score": 39,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1804.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 2.0,
+      "PUSH_UP": 1.0,
+      "SHUTTLE_RUN": 21.0,
+      "RENANG": 61.0
+     }
+    },
+    {
+     "score": 38,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1783.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 1.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.1,
+      "RENANG": 61.7
+     }
+    },
+    {
+     "score": 37,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1761.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.1,
+      "RENANG": 62.5
+     }
+    },
+    {
+     "score": 36,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1740.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.2,
+      "RENANG": 63.3
+     }
+    },
+    {
+     "score": 35,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1719.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.2,
+      "RENANG": 64.1
+     }
+    },
+    {
+     "score": 34,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1698.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.3,
+      "RENANG": 64.8
+     }
+    },
+    {
+     "score": 33,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1677.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.3,
+      "RENANG": 65.6
+     }
+    },
+    {
+     "score": 32,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1656.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.4,
+      "RENANG": 66.4
+     }
+    },
+    {
+     "score": 31,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1634.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.5,
+      "RENANG": 67.1
+     }
+    },
+    {
+     "score": 30,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1613.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.5,
+      "RENANG": 67.9
+     }
+    },
+    {
+     "score": 29,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1592.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.6,
+      "RENANG": 68.7
+     }
+    },
+    {
+     "score": 28,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1571.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.6,
+      "RENANG": 69.4
+     }
+    },
+    {
+     "score": 27,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1550.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.7,
+      "RENANG": 70.2
+     }
+    },
+    {
+     "score": 26,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1528.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.7,
+      "RENANG": 71.0
+     }
+    },
+    {
+     "score": 25,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1507.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.8,
+      "RENANG": 71.8
+     }
+    },
+    {
+     "score": 24,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1486.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.8,
+      "RENANG": 72.5
+     }
+    },
+    {
+     "score": 23,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1465.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 21.9,
+      "RENANG": 73.3
+     }
+    },
+    {
+     "score": 22,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1444.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.0,
+      "RENANG": 74.1
+     }
+    },
+    {
+     "score": 21,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1423.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.0,
+      "RENANG": 74.8
+     }
+    },
+    {
+     "score": 20,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1401.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.1,
+      "RENANG": 75.6
+     }
+    },
+    {
+     "score": 19,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1380.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.1,
+      "RENANG": 76.4
+     }
+    },
+    {
+     "score": 18,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1359.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.2,
+      "RENANG": 77.1
+     }
+    },
+    {
+     "score": 17,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1338.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.2,
+      "RENANG": 77.9
+     }
+    },
+    {
+     "score": 16,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1317.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.3,
+      "RENANG": 78.7
+     }
+    },
+    {
+     "score": 15,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1296.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.4,
+      "RENANG": 79.5
+     }
+    },
+    {
+     "score": 14,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1274.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.4,
+      "RENANG": 80.2
+     }
+    },
+    {
+     "score": 13,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1253.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.5,
+      "RENANG": 81.0
+     }
+    },
+    {
+     "score": 12,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1232.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.5,
+      "RENANG": 81.8
+     }
+    },
+    {
+     "score": 11,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1211.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.6,
+      "RENANG": 82.5
+     }
+    },
+    {
+     "score": 10,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1190.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.6,
+      "RENANG": 83.3
+     }
+    },
+    {
+     "score": 9,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1169.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.7,
+      "RENANG": 84.1
+     }
+    },
+    {
+     "score": 8,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1147.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.7,
+      "RENANG": 84.8
+     }
+    },
+    {
+     "score": 7,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1126.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.8,
+      "RENANG": 85.6
+     }
+    },
+    {
+     "score": 6,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1105.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.9,
+      "RENANG": 86.4
+     }
+    },
+    {
+     "score": 5,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1084.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 22.9,
+      "RENANG": 87.2
+     }
+    },
+    {
+     "score": 4,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1063.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 23.0,
+      "RENANG": 87.9
+     }
+    },
+    {
+     "score": 3,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1042.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 23.0,
+      "RENANG": 88.7
+     }
+    },
+    {
+     "score": 2,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 1020.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 23.1,
+      "RENANG": 89.5
+     }
+    },
+    {
+     "score": 1,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 999.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 23.1,
+      "RENANG": 90.2
+     }
+    },
+    {
+     "score": 0,
+     "status": "LINEAR_ESTIMATE",
+     "reference": null,
+     "values": {
+      "LARI_12M": 978.0,
+      "CHINNING": 0.0,
+      "SIT_UP": 0.0,
+      "PUSH_UP": 0.0,
+      "SHUTTLE_RUN": 23.2,
+      "RENANG": 91.0
+     }
+    }
+   ]
+  }
+ ],
+ "boundaryLog": [
+  {
+   "id": 1,
+   "gender": "Pria",
+   "component": "Lari 12M",
+   "input": 3444,
+   "score": 100,
+   "change": "Batas Max",
+   "evidence": "Blangko TKJ Polri"
+  },
+  {
+   "id": 2,
+   "gender": "Pria",
+   "component": "Pull Up",
+   "input": 17,
+   "score": 100,
+   "change": "-",
+   "evidence": "Blangko TKJ Polri"
+  },
+  {
+   "id": 3,
+   "gender": "Pria",
+   "component": "Sit Up",
+   "input": 40,
+   "score": 100,
+   "change": "-",
+   "evidence": "Blangko TKJ Polri"
+  },
+  {
+   "id": 4,
+   "gender": "Pria",
+   "component": "Push Up",
+   "input": 42,
+   "score": 100,
+   "change": "-",
+   "evidence": "Blangko TKJ Polri"
+  },
+  {
+   "id": 5,
+   "gender": "Pria",
+   "component": "Shuttle Run",
+   "input": 16.2,
+   "score": 100,
+   "change": "-",
+   "evidence": "Blangko TKJ Polri"
+  },
+  {
+   "id": 6,
+   "gender": "Pria",
+   "component": "Renang",
+   "input": 14,
+   "score": 100,
+   "change": "-",
+   "evidence": "Blangko TKJ Polri"
+  },
+  {
+   "id": 7,
+   "gender": "Wanita",
+   "component": "Lari 12M",
+   "input": 3095,
+   "score": 100,
+   "change": "Batas Max",
+   "evidence": "Standar SSDM Polri"
+  },
+  {
+   "id": 8,
+   "gender": "Wanita",
+   "component": "Chinning",
+   "input": 72,
+   "score": 100,
+   "change": "-",
+   "evidence": "Standar SSDM Polri"
+  },
+  {
+   "id": 9,
+   "gender": "Wanita",
+   "component": "Sit Up",
+   "input": 50,
+   "score": 100,
+   "change": "-",
+   "evidence": "Standar SSDM Polri"
+  },
+  {
+   "id": 10,
+   "gender": "Wanita",
+   "component": "Push Up",
+   "input": 37,
+   "score": 100,
+   "change": "-",
+   "evidence": "Standar SSDM Polri"
+  },
+  {
+   "id": 11,
+   "gender": "Wanita",
+   "component": "Shuttle Run",
+   "input": 17.6,
+   "score": 100,
+   "change": "-",
+   "evidence": "Standar SSDM Polri"
+  }
+ ],
+ "importAudit": {
+  "sheetsRead": 3,
+  "sheetNames": [
+   "Norma Pria",
+   "Norma Wanita",
+   "Log Pengujian Batas"
+  ],
+  "tables": {
+   "pria_2026_v2": {
+    "rows": 101,
+    "emptyCells": 0,
+    "duplicates": 0,
+    "verifiedScores": [
+     100,
+     41,
+     0
+    ],
+    "estimateRows": 98
+   },
+   "wanita_2026_v2": {
+    "rows": 101,
+    "emptyCells": 0,
+    "duplicates": 0,
+    "verifiedScores": [
+     100
+    ],
+    "estimateRows": 100
+   }
+  },
+  "warnings": [
+   "Norma Wanita: Chinning bernilai 0 pada nilai 0-40; satuan perlu verifikasi dokumen resmi.",
+   "Log Pengujian Batas: sumber bukti ('Blangko TKJ Polri', 'Standar SSDM Polri') berbeda dari rujukan di sheet norma (Kep/1352/VI/2020); entri Wanita-Renang tidak ada."
+  ],
+  "boundaryLogRows": 11
+ }
+}
